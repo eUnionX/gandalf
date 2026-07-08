@@ -53,14 +53,21 @@ Each has a `clientSecret` (dev: `<clientId>-secret-dev`) for the confidential
 code exchange. All three sign in against the `eunionx` organisation and share the
 `cert-gandalf` JWT signing certificate.
 
-## Client integration (the wiring step)
-Gandalf and its OIDC apps are live. Pointing each client at it means, per client:
+## Client integration
+**Trader web: WIRED (done).** The web app (`web/src/lib/oidc.ts` + `App.tsx`) signs in
+through Gandalf via Authorization-Code + PKCE: "Sign in with Gandalf" redirects to the
+authorize endpoint; `/callback` exchanges the code for tokens in the browser (Gandalf
+allows CORS from `http://localhost:3000`); the eUnionX session is established from the
+token's identity claim (`accountId = email`). Verified end to end: the trader signs in
+at the gate and lands in the terminal as `trader@eunionx.com`.
+
+**Warroom and mobile: same pattern, pending.** Per remaining client:
 - add an OIDC client library (e.g. `oidc-client-ts` on web, `AppAuth` on mobile);
 - configure issuer `http://localhost:18000`, the `clientId`, and the `redirect_uri`
   above;
 - on app load, if there is no valid token, redirect to Gandalf; handle the
   callback; store the token; attach it as `Authorization: Bearer` to api calls;
-- the eUnionX `api` validates the JWT against Gandalf's JWKS.
+- the eUnionX `api` validates the JWT against Gandalf's JWKS (the deeper backend step).
 
 This replaces each app's local login screen with the shared Gandalf gate. The
 eUnionX onboarding/OTP journey continues to live in the `api`; Gandalf owns
