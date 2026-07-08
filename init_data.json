@@ -1,0 +1,423 @@
+{
+  "organizations": [
+    {
+      "owner": "admin",
+      "name": "eunionx",
+      "displayName": "eUnionX",
+      "websiteUrl": "http://localhost:3000",
+      "logo": "http://localhost:18000/eunionx-logo.svg",
+      "favicon": "http://localhost:18000/eunionx-logo.svg",
+      "passwordType": "plain",
+      "passwordSalt": "",
+      "passwordOptions": [
+        "AtLeast6"
+      ],
+      "countryCodes": [
+        "US",
+        "IN",
+        "GB",
+        "SG"
+      ],
+      "defaultAvatar": "http://localhost:18000/eunionx-logo.svg",
+      "defaultApplication": "eunionx-web",
+      "tags": [],
+      "languages": [
+        "en"
+      ],
+      "masterPassword": "",
+      "defaultPassword": "",
+      "initScore": 2000,
+      "enableSoftDeletion": false,
+      "isProfilePublic": false,
+      "accountItems": [],
+      "themeData": {
+        "themeType": "default",
+        "colorPrimary": "#2DD4BF",
+        "borderRadius": 10,
+        "isCompact": false,
+        "isEnabled": true
+      }
+    }
+  ],
+  "certs": [
+    {
+      "owner": "admin",
+      "name": "cert-gandalf",
+      "displayName": "Gandalf JWT signing cert",
+      "scope": "JWT",
+      "type": "x509",
+      "cryptoAlgorithm": "RS256",
+      "bitSize": 4096,
+      "expireInYears": 20,
+      "certificate": "-----BEGIN CERTIFICATE-----\nMIIFMzCCAxugAwIBAgIUHR/ZfvLCpg5CBJ/6p9F6q2sdR2QwDQYJKoZIhvcNAQEL\nBQAwKTEVMBMGA1UEAwwMY2VydC1nYW5kYWxmMRAwDgYDVQQKDAdlVW5pb25YMB4X\nDTI2MDcwNzIwMTk1MVoXDTQ2MDcwMjIwMTk1MVowKTEVMBMGA1UEAwwMY2VydC1n\nYW5kYWxmMRAwDgYDVQQKDAdlVW5pb25YMIICIjANBgkqhkiG9w0BAQEFAAOCAg8A\nMIICCgKCAgEAuyIMxHulFBgmpQubNO+kcjY0cpD5eS8mt3erHf5+c53FjuqQJZvZ\n07fc3P3g2+9sgjLpPk2dhSD24l269tXAGzf2FjlLfzmxjTaMGseN0Tj6jeCyGIs+\n9nNkE7AIC/pOuHTVVbDmC7iHvu5kmIjRcTFBbcwCVzIXwaBMIAruyQVBIF9uRG+Y\nICnUaHrkpLr/3ikpGVFZFE5foKyIwQyb3QzcC//jRMfYMlCYQJ2Hxj71IE+2u6Z6\nY39UmPJq/2VQDkaLGYoHQFa9zAhEm3vYnRV7fCYYQwysIJjz6rALVJiJNMvLJtlt\nYyaRgRvRkrBpmrmYCht2gwpis1XejJR2pMuZxAwzda/zjswhm8AcOJIM0OODpdik\nmEbnjFwtH8roV23or+yeqeCySvsLo7TvqsZdgx3bgaPsl7pEk9pfKY005TfwCfXp\nF8Qa06k8opT5uBb+L8/Pryh059h4hMzpZ1TMjh8s8yz2D7slfIIYHsrYoSQva4kM\n/9/UJeA5SQlxCoLW6Z5huYhOSvKIGWCa+z/rywjTwEIh274AeXmADjnwpXdt/sW5\n0bJdff2dlNMSeJqpLnhNr3SPwhQTASiQpw5nExxB5zfGgB8bQ/IHj42v6D/MIMgn\nWATxwBPSD3Uy/+c8z4hbTGq43+mtiOoaOl4cWm9WtP4/MdTtWNGr93ECAwEAAaNT\nMFEwHQYDVR0OBBYEFPcocKehFZvDf+1jykKgbotj/RhwMB8GA1UdIwQYMBaAFPco\ncKehFZvDf+1jykKgbotj/RhwMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQEL\nBQADggIBAK5xmkI2HHPXC0iurqQn12NVSlw2XSe3h8wbgETubrzMnbb/jNRu54Bu\nMUc01CArjvM6ULE6VWextG85mX48VJoXbUUOrdVO7dv0kcrY1YRvrG5kp310Ptj0\n41PJqLeKYWXzl2VEDWeOpI7jP2vtsxz8ozKr2+BlPTo39+ememUDnwq8/uBUcHJu\nvSWWsyPL3qAaaxxFDKtCfqpO8LlHHmngu24TkJEOGjDtoNSXE9QDQJTVDp1vgei6\ngzITJ4J5Mya7D28cm3Jxcp387KxJS3yoJdsDdo2in0EOnttxfXD48cqDShdRV65l\nH7auTI8hetyyUvu4qfBiLkeqRo1xMV2lO0qT2+ePWmazzjt6YcNDfdCGGvuiDg9F\navZcc4Isbzjq90+6D18kbL5eFWomHAjP94EIDkXaOjLoHmNbl9oP0ilxnPutCKyj\nMPuO+ys3X38+lo8qm50B1+NI+fgBcpaMeA/S0t9Ke/25gN1iAvwJtqkinIoplzHV\nv81ZadMSMRAPSrVNK5SAnzkGCsSKF1WNm1HF9K/h7/XOh42Wnh3cAKSQ0CVpMmQC\no6oLxdKZuyI3iR7NMDAjWrAwWtq+J8ACcUfhmdrG8MWrE6GQFJNSl/S2jS5XiapS\npCKrwGu2Y0QnwlJOI/Vhum35zSyKhkSD79VQtaQQ4i5cpKjkMwzo\n-----END CERTIFICATE-----",
+      "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIJQwIBADANBgkqhkiG9w0BAQEFAASCCS0wggkpAgEAAoICAQC7IgzEe6UUGCal\nC5s076RyNjRykPl5Lya3d6sd/n5zncWO6pAlm9nTt9zc/eDb72yCMuk+TZ2FIPbi\nXbr21cAbN/YWOUt/ObGNNowax43ROPqN4LIYiz72c2QTsAgL+k64dNVVsOYLuIe+\n7mSYiNFxMUFtzAJXMhfBoEwgCu7JBUEgX25Eb5ggKdRoeuSkuv/eKSkZUVkUTl+g\nrIjBDJvdDNwL/+NEx9gyUJhAnYfGPvUgT7a7pnpjf1SY8mr/ZVAORosZigdAVr3M\nCESbe9idFXt8JhhDDKwgmPPqsAtUmIk0y8sm2W1jJpGBG9GSsGmauZgKG3aDCmKz\nVd6MlHaky5nEDDN1r/OOzCGbwBw4kgzQ44Ol2KSYRueMXC0fyuhXbeiv7J6p4LJK\n+wujtO+qxl2DHduBo+yXukST2l8pjTTlN/AJ9ekXxBrTqTyilPm4Fv4vz8+vKHTn\n2HiEzOlnVMyOHyzzLPYPuyV8ghgeytihJC9riQz/39Ql4DlJCXEKgtbpnmG5iE5K\n8ogZYJr7P+vLCNPAQiHbvgB5eYAOOfCld23+xbnRsl19/Z2U0xJ4mqkueE2vdI/C\nFBMBKJCnDmcTHEHnN8aAHxtD8gePja/oP8wgyCdYBPHAE9IPdTL/5zzPiFtMarjf\n6a2I6ho6Xhxab1a0/j8x1O1Y0av3cQIDAQABAoICABfESdHUkFE+hf31POeavgyB\nZOTeE8k321d22+VJ0r6VXad6lAcqxZ4Vnnf0yI+2V1Yr6CKxEd38I075r4q0+Bqc\n32TQLw4AAlRYhq/KA3F8ppnJXWUvnjYHzsCPXV5EEqZrtEKXXohDjf4KYf1bdxpE\nsrYisHNpmcnONYzmRpCCWdSmOid38t624VLJtOtVErUhDia4hbNGBvAtqYq3Mr5+\n6R2fCLrOFN/DC6s9NqbPjStm5GLt0GJ9o/1u4HcCY4oEnJsIREaAHcfhjvEeaBL/\nTPkmD3PIkr3rHyOB61Z5rwdlEK6k87chiV5X7aSPQkJT6wLxnPokogd70vGQ04Z/\n+iTLLZ/VsRK4PTU2fQItTH+Uij4BxEPUKGqn93MJB+aiLeqizOgAt5yPo1o/0OVp\ndNVJDHvUCG44VgwkBg83JdgYbfzA6ZO2oIBmZ/Z1lIFjYK0WX0sOHfUsRmVsO+ba\nY69u3v2G5wn0lrZNklvsd11/hSzurSzsG36FBwLGN/Lo6UA4P3sB97y8EeXbJ+Wx\nDDw0v8KXl1QaGU91BgCV1UrmzNHUZRA6D77luz/Yl2CzBZWjXcsOYLtHZiFevbnl\nEtQijT/mKym6hw/3aX/5du7GeLm4Q34jGhm0/Wg0BoBChoJxm78jWYo8ZCnf9oK5\nUedliI7ArjLnhKQyJCW/AoIBAQDcYJgbgjD1VPEPSOc4hMyrHJ5KutdrDCmh459S\n3gp/egy1lpIMwzTjPlgskZAPnHjxX1OTwvW6kEyM+LPfY34YUILcG9S4t0H4o4yO\nxZQyVK7FgTvt4RMCtVTQPtwZoT9cpLs6RQyo7iNo6lZyc1B0F1Nm7PZ+w1gnKKsl\nOd7JEhdbpG8Uq5rxfERWoTdrY9SW0qkrp7+1gYyIPNltjMsvtdIK6UsFVzxaWVLy\n/OV0pZnmPpAIhiB+RFnUThfFh0KdEalzK7KEWDtZsCSXDb6CzcpnL/kvoFawwECb\nBJNy43ImXFZrKHQwNb1VISpo/54eRETI2n9FeRROWlJUff4XAoIBAQDZYcbpSF+t\nWeDqSokkUZmBFVre+cjIt8z5/Mfi6Ayu+bxgnh8FaM232REMNRgF/M8ATjylLxRM\nwcQp+1sMrVtcYKXEoOKtRpttrvIgZ75jC6vOseqECWqSMdM2nnTnGKKOE3AWfMOY\nY7wrFqjf0BCb0yimlj0hOoUgkTG6z+71MhZ7JDwGm0bZyOKNnIwF7HbMOV9YpOEX\nF+4ZaNiks96r/ws2hNYpRHA/dU5xVXPoDYQ5C1S7DsL7KRvwUCcKs5/O+sxcchOQ\nQk5A7UCmXE08zbfA6YgYETI+bQxJa0n8aiYuSLj14t7mU6j8xOQbEs7RZPEVQWEw\nP4nfmNTqoXO3AoIBAQCHSSUXfgzgDo0NfQu0vpGGWcMyzRCBPq4wG7QrAvQe3aX/\ns7dk7lEBT7yBX7q4Wq5EPujnxL9lEEBuKh8B++nks0giJ1OnMZjmMkCPROt9Gk9Q\nH83ScmFhQEAYtv4XHc3v6ZCmbM0gx1Alj/YRvIifO9KPVNjdaL4tC+JEsAn8FYcR\nUxh97/rmVAr/w2hqHJbdH+WKTyh5HFZRLEmt3si9OTkASccsOClsrXkmgem6eg7I\nMY/qK6y21u7uTiJ5uFdEZRtJAIJOjHuiy2cq890IH50pS2IFwsB1MRB4GY8K8GWa\n9wR2NBdfoR3hrMKEQqemnPI8+yU2WOYGU5xHEjFxAoIBADnEih+kZAilQegBNsC4\nDpsHGcb3iiwM7CPi0RuznutA4paqboP5ffHFdYpQ8bllnXzvTZ54DGT5eS/O5DtS\nNl0uMd83AgYaJWPYge+qoiWgDGA5V6EO/4sqQn7ZTSe8nDY1ZCwVq8TrfC3XL7mK\niV9flgXvFv+llYs6CoUijNYMIX1H+8ulqAZoJAyN9Yf9dvR+qp/b8RU5/sQx4KCk\nTCBY/pnWYzNERLAYdGgZ1VttfB3MrQ+otJgaLJqIMlfdtDJE49oNVrWXaURHyE5t\naPknkhVp+girSTbds84u/NJfQxY5rS1qxOFgih/iEtw++0caFBcZ8MHpoLIS40IW\n9bECggEBANLfKmnYGhXMgNWSpx4K9qpVy6F+ZptNvLrwIbar2h+GFolf7QLF3uXe\nzYFDE/UDxDXtlPog5iIefkkG1M+LSWUsQeh910DMqZPUUW9q7uJ7d0JkkaVvvAWL\nQCgVvRPPwtbncrj9rhU6rUcGfyqS88hZbPqcMFUVawQmtcBn2Dk22wKrI9CtiZay\nfichI7AzcK/Qbxqol/LROLZylE+urOOaNJGtcu48rDhrFQggZ5ZK2aScqeRqywiN\nanHv+2fgtl4yFlsPEEhkhVZqmPm0TdV77eVZnf09QVCyZXXcrymwa+Ri80CcM0sF\nCEoTvRsz41PPg6fn/9rvp1aUKetCRNs=\n-----END PRIVATE KEY-----"
+    }
+  ],
+  "applications": [
+    {
+      "owner": "admin",
+      "name": "eunionx-web",
+      "displayName": "eUnionX - Trader",
+      "logo": "http://localhost:18000/eunionx-logo.svg",
+      "homepageUrl": "http://localhost:18000",
+      "organization": "eunionx",
+      "cert": "cert-gandalf",
+      "enablePassword": true,
+      "enableSignUp": false,
+      "enableSigninSession": true,
+      "clientId": "eunionx-web",
+      "clientSecret": "eunionx-web-secret-dev",
+      "providers": [],
+      "signinMethods": [
+        {
+          "name": "Password",
+          "displayName": "Password",
+          "rule": "All"
+        },
+        {
+          "name": "Verification code",
+          "displayName": "Verification code",
+          "rule": "All"
+        }
+      ],
+      "signupItems": [
+        {
+          "name": "ID",
+          "visible": false,
+          "required": true,
+          "prompted": false,
+          "rule": "Random"
+        },
+        {
+          "name": "Username",
+          "visible": true,
+          "required": true,
+          "prompted": false,
+          "rule": "None"
+        },
+        {
+          "name": "Display name",
+          "visible": true,
+          "required": true,
+          "prompted": false,
+          "rule": "None"
+        },
+        {
+          "name": "Password",
+          "visible": true,
+          "required": true,
+          "prompted": false,
+          "rule": "None"
+        },
+        {
+          "name": "Email",
+          "visible": true,
+          "required": true,
+          "prompted": false,
+          "rule": "None"
+        }
+      ],
+      "grantTypes": [
+        "authorization_code",
+        "refresh_token",
+        "id_token",
+        "token",
+        "password"
+      ],
+      "redirectUris": [
+        "http://localhost:3000/callback"
+      ],
+      "tokenFormat": "JWT",
+      "tokenFields": [],
+      "expireInHours": 168,
+      "failedSigninLimit": 5,
+      "failedSigninFrozenTime": 15,
+      "themeData": {
+        "themeType": "default",
+        "colorPrimary": "#2DD4BF",
+        "borderRadius": 10,
+        "isCompact": false,
+        "isEnabled": true
+      },
+      "formCss": "",
+      "footerHtml": "<div style=\"text-align:center;color:#8a94a6;font-size:12px\">Gandalf - the eUnionX access gate. You shall not pass without identity.</div>"
+    },
+    {
+      "owner": "admin",
+      "name": "eunionx-warroom",
+      "displayName": "eUnionX - Warroom",
+      "logo": "http://localhost:18000/eunionx-logo.svg",
+      "homepageUrl": "http://localhost:18000",
+      "organization": "eunionx",
+      "cert": "cert-gandalf",
+      "enablePassword": true,
+      "enableSignUp": false,
+      "enableSigninSession": true,
+      "clientId": "eunionx-warroom",
+      "clientSecret": "eunionx-warroom-secret-dev",
+      "providers": [],
+      "signinMethods": [
+        {
+          "name": "Password",
+          "displayName": "Password",
+          "rule": "All"
+        },
+        {
+          "name": "Verification code",
+          "displayName": "Verification code",
+          "rule": "All"
+        }
+      ],
+      "signupItems": [
+        {
+          "name": "ID",
+          "visible": false,
+          "required": true,
+          "prompted": false,
+          "rule": "Random"
+        },
+        {
+          "name": "Username",
+          "visible": true,
+          "required": true,
+          "prompted": false,
+          "rule": "None"
+        },
+        {
+          "name": "Display name",
+          "visible": true,
+          "required": true,
+          "prompted": false,
+          "rule": "None"
+        },
+        {
+          "name": "Password",
+          "visible": true,
+          "required": true,
+          "prompted": false,
+          "rule": "None"
+        },
+        {
+          "name": "Email",
+          "visible": true,
+          "required": true,
+          "prompted": false,
+          "rule": "None"
+        }
+      ],
+      "grantTypes": [
+        "authorization_code",
+        "refresh_token",
+        "id_token",
+        "token",
+        "password"
+      ],
+      "redirectUris": [
+        "http://localhost:3001/callback"
+      ],
+      "tokenFormat": "JWT",
+      "tokenFields": [],
+      "expireInHours": 168,
+      "failedSigninLimit": 5,
+      "failedSigninFrozenTime": 15,
+      "themeData": {
+        "themeType": "default",
+        "colorPrimary": "#2DD4BF",
+        "borderRadius": 10,
+        "isCompact": false,
+        "isEnabled": true
+      },
+      "formCss": "",
+      "footerHtml": "<div style=\"text-align:center;color:#8a94a6;font-size:12px\">Gandalf - the eUnionX access gate. You shall not pass without identity.</div>"
+    },
+    {
+      "owner": "admin",
+      "name": "eunionx-mobile",
+      "displayName": "eUnionX - Mobile",
+      "logo": "http://localhost:18000/eunionx-logo.svg",
+      "homepageUrl": "http://localhost:18000",
+      "organization": "eunionx",
+      "cert": "cert-gandalf",
+      "enablePassword": true,
+      "enableSignUp": false,
+      "enableSigninSession": true,
+      "clientId": "eunionx-mobile",
+      "clientSecret": "eunionx-mobile-secret-dev",
+      "providers": [],
+      "signinMethods": [
+        {
+          "name": "Password",
+          "displayName": "Password",
+          "rule": "All"
+        },
+        {
+          "name": "Verification code",
+          "displayName": "Verification code",
+          "rule": "All"
+        }
+      ],
+      "signupItems": [
+        {
+          "name": "ID",
+          "visible": false,
+          "required": true,
+          "prompted": false,
+          "rule": "Random"
+        },
+        {
+          "name": "Username",
+          "visible": true,
+          "required": true,
+          "prompted": false,
+          "rule": "None"
+        },
+        {
+          "name": "Display name",
+          "visible": true,
+          "required": true,
+          "prompted": false,
+          "rule": "None"
+        },
+        {
+          "name": "Password",
+          "visible": true,
+          "required": true,
+          "prompted": false,
+          "rule": "None"
+        },
+        {
+          "name": "Email",
+          "visible": true,
+          "required": true,
+          "prompted": false,
+          "rule": "None"
+        }
+      ],
+      "grantTypes": [
+        "authorization_code",
+        "refresh_token",
+        "id_token",
+        "token",
+        "password"
+      ],
+      "redirectUris": [
+        "eunionx://auth/callback",
+        "http://localhost:8081/callback"
+      ],
+      "tokenFormat": "JWT",
+      "tokenFields": [],
+      "expireInHours": 168,
+      "failedSigninLimit": 5,
+      "failedSigninFrozenTime": 15,
+      "themeData": {
+        "themeType": "default",
+        "colorPrimary": "#2DD4BF",
+        "borderRadius": 10,
+        "isCompact": false,
+        "isEnabled": true
+      },
+      "formCss": "",
+      "footerHtml": "<div style=\"text-align:center;color:#8a94a6;font-size:12px\">Gandalf - the eUnionX access gate. You shall not pass without identity.</div>"
+    }
+  ],
+  "users": [
+    {
+      "owner": "built-in",
+      "name": "gandalf",
+      "type": "normal-user",
+      "password": "Gandalf@eunionx1",
+      "displayName": "Gandalf (super admin)",
+      "avatar": "http://localhost:18000/eunionx-logo.svg",
+      "email": "gandalf@eunionx.com",
+      "phone": "",
+      "countryCode": "US",
+      "address": [],
+      "affiliation": "eUnionX",
+      "tag": "",
+      "score": 2000,
+      "ranking": 1,
+      "isAdmin": true,
+      "isForbidden": false,
+      "isDeleted": false,
+      "signupApplication": "app-built-in",
+      "createdIp": "",
+      "groups": []
+    },
+    {
+      "owner": "eunionx",
+      "name": "operator",
+      "type": "normal-user",
+      "password": "Operator@eunionx1",
+      "displayName": "Warroom Operator",
+      "avatar": "http://localhost:18000/eunionx-logo.svg",
+      "email": "operator@eunionx.com",
+      "phone": "",
+      "countryCode": "US",
+      "address": [],
+      "affiliation": "eUnionX",
+      "tag": "",
+      "score": 2000,
+      "ranking": 1,
+      "isAdmin": true,
+      "isForbidden": false,
+      "isDeleted": false,
+      "signupApplication": "eunionx-warroom",
+      "createdIp": "",
+      "groups": []
+    },
+    {
+      "owner": "eunionx",
+      "name": "trader",
+      "type": "normal-user",
+      "password": "Trader@eunionx1",
+      "displayName": "Demo Trader",
+      "avatar": "http://localhost:18000/eunionx-logo.svg",
+      "email": "trader@eunionx.com",
+      "phone": "15551234567",
+      "countryCode": "US",
+      "address": [],
+      "affiliation": "eUnionX",
+      "tag": "",
+      "score": 2000,
+      "ranking": 1,
+      "isAdmin": false,
+      "isForbidden": false,
+      "isDeleted": false,
+      "signupApplication": "eunionx-web",
+      "createdIp": "",
+      "groups": []
+    }
+  ],
+  "roles": [
+    {
+      "owner": "eunionx",
+      "name": "superadmin",
+      "displayName": "Super Admin",
+      "isEnabled": true,
+      "roles": [],
+      "users": [
+        "built-in/gandalf"
+      ]
+    },
+    {
+      "owner": "eunionx",
+      "name": "operator",
+      "displayName": "Operator",
+      "isEnabled": true,
+      "roles": [],
+      "users": [
+        "eunionx/operator"
+      ]
+    },
+    {
+      "owner": "eunionx",
+      "name": "trader",
+      "displayName": "Trader",
+      "isEnabled": true,
+      "roles": [],
+      "users": [
+        "eunionx/trader"
+      ]
+    }
+  ]
+}
