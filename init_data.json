@@ -125,7 +125,8 @@
         "password"
       ],
       "redirectUris": [
-        "http://localhost:3000/callback"
+        "http://localhost:3000/callback",
+        "https://eunionx.maic.club/callback"
       ],
       "tokenFormat": "JWT",
       "tokenFields": [],
@@ -213,7 +214,8 @@
         "password"
       ],
       "redirectUris": [
-        "http://localhost:3001/callback"
+        "http://localhost:3001/callback",
+        "https://eunionx-warroom.maic.club/callback"
       ],
       "tokenFormat": "JWT",
       "tokenFields": [],
